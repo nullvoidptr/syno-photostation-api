@@ -4,5 +4,5 @@ title = "Unofficial Synology PhotoStation REST API Reference"
 theme = "hugo-theme-techdoc"
 
 [Params]
-    menu_style = "open-menu"
+    menu_style = "slide-menu"
     custom_background_color = "#4c99e6"

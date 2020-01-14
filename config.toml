@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Unofficial Synology PhotoStation REST API Reference"
 theme = "hugo-theme-techdoc"
+
+[Params]
+    menu_style = "open-menu"
+    custom_background_color = "#4c99e6"

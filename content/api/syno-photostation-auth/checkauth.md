@@ -10,7 +10,7 @@ successful [`login`](/api/syno-photostation-auth/login) request.
 
 No additional parameters required.
 
-##### Response #####
+##### Sample Response #####
 
 ```json
 {

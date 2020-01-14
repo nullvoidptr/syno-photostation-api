@@ -22,4 +22,13 @@ are identified by one of the following form names in the request:
 - thumb_small (FILE_THUMB_M)
 - thumb_large (FILE_THUMB_XL)
 
+
+### Sample Request ###
+
+```text
+curl -b xxx -F 'original=@/path/to/original/file' -F 'thumb_small=@/path/to/small/thumb' -F 'thumb_large=@/path/to/large/thumb' 'http://synology.local/photo/webapi/file.php?api=SYNO.PhotoStation.File&method=uploadphoto&version=1&dest_folder_path=&duplicate=ignore&filename=myfilename&mtime=XXX'
+```
+
+TODO - what is mtime format?
+
 ### Sample Response ###

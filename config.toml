@@ -1,4 +1,3 @@
-baseURL = "http://jbowen.dev/synology/photo-api/"
 languageCode = "en-us"
 title = "Synology PhotoStation REST API"
 theme = "hugo-theme-techdoc"

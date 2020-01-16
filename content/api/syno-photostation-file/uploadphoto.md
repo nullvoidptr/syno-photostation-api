@@ -22,7 +22,6 @@ are identified by one of the following form names in the request:
 - thumb_small (FILE_THUMB_M)
 - thumb_large (FILE_THUMB_XL)
 
-
 ### Sample Request ###
 
 ```text

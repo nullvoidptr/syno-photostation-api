@@ -1,7 +1,7 @@
 ---
 title: "uploadvideo"
 description: "Upload a video file to PhotoStation"
-draft: yes
+draft: true
 ---
 Upload a video file to PhotoStation
 

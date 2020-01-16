@@ -4,7 +4,7 @@
 <ul class="api_list">
 {{ range .Data.Pages -}}
 {{- if not .Draft -}}
-  <li><span><a href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }}{{ .File.TranslationBaseName }}{{ end }}</a>  {{ if .Description }} - {{ .Description }}{{ end }}</span></li>
+  <li><span><a href="{{ .Permalink | relURL }}">{{ if .Title }}{{ .Title }}{{ else }}{{ .File.TranslationBaseName }}{{ end }}</a>  {{ if .Description }} - {{ .Description }}{{ end }}</span></li>
 {{- end -}}
 {{- end }}
 </ul>

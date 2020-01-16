@@ -5,11 +5,11 @@ weight: 10
 
 
 In order to interact with the Synology PhotoStation API, one needs to know the
-actual API names and versions available on a given running instance. This is
+details of the APIs available on a PhotoStation instance. This is
 important as software version changes may lead to breaking API changes. Thus
 developers would need to know API versioning on a system when interacting with it.
 
-This information is available via the `query` method of the
+API information is available via the `query` method of the
 [`SYNO.API.Info`](/api/syno-api-info/) API
 accessible at `photo/webapi/query.cgi`. A request to this API will return the
 following information for all available APIs:
@@ -32,7 +32,7 @@ Further information on the request and response formats can be found in the next
 
 ### Request ###
 
-```sh
+```text
 curl 'http://synology.local/photo/webapi/query.php?api=SYNO.API.Info&method=query&version=1&query=all'
 ```
 

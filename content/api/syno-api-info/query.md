@@ -56,3 +56,8 @@ Returns a list of matching API names and their supported versions.
   }
 }
 ```
+
+### Notes ###
+
+As the general [API workflow](/getting-started) recommends querying `SYNO.API.Info`
+prior to authentication, no session cookie or token is required for this API call.

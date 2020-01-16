@@ -3,7 +3,8 @@ title: "Getting Started"
 weight: 10
 ---
 
-This section provides a basic overview of the PhotoStation API and how one should use it.
+This section provides a basic overview of the PhotoStation API and how it can be
+used in applications and scripts.
 
 ## API Workflow ##
 

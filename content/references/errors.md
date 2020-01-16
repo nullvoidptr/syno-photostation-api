@@ -53,7 +53,7 @@ Code|Name
 426 |`PHOTOSTATION_PERMISSION_BAD_PARAMS`
 427 |`PHOTOSTATION_PERMISSION_ACCESS_DENY`
 
-### SYNO.PhotoStation.Tag (436-445)
+### SYNO.PhotoStation.Tag (436-445) ###
 
 Code|Name
 ----|-------------------------------------
@@ -65,7 +65,7 @@ Code|Name
 441 |`PHOTOSTATION_TAG_HAS_EXIST`
 442 |`PHOTOSTATION_TAG_SEARCH_FAIL`
 
-### SYNO.PhotoStation.SmartAlbum (446-455)
+### SYNO.PhotoStation.SmartAlbum (446-455) ###
 
 Code|Name
 ----|-------------------------------------
@@ -76,7 +76,7 @@ Code|Name
 450 |`PHOTOSTATION_SMARTALBUM_TAG_NOT_EXIST`
 451 |`PHOTOSTATION_SMARTALBUM_CREATE_FAIL_EXIST`
 
-### SYNO.PhotoStation.Photo (456-465)
+### SYNO.PhotoStation.Photo (456-465) ###
 
 Code|Name
 ----|-------------------------------------
@@ -84,7 +84,7 @@ Code|Name
 457 |`PHOTOSTATION_PHOTO_ACCESS_DENY`
 458 |`PHOTOSTATION_PHOTO_SELECT_CONFLICT`
 
-### SYNO.PhotoStation.PhotoTag (466-475)
+### SYNO.PhotoStation.PhotoTag (466-475) ###
 
 Code|Name
 ----|-------------------------------------
@@ -97,7 +97,7 @@ Code|Name
 472 |`PHOTOSTATION_PHOTO_TAG_DELETE_FAIL`
 473 |`PHOTOSTATION_PHOTO_TAG_PEOPLE_TAG_CONFIRM_FAIL`
 
-### SYNO.PhotoStation.Category (476-490)
+### SYNO.PhotoStation.Category (476-490) ###
 
 Code|Name
 ----|-------------------------------------
@@ -114,7 +114,7 @@ Code|Name
 486 |`PHOTOSTATION_CATEGORY_ARRANGE_ITEM_FAIL`
 487 |`PHOTOSTATION_CATEGORY_DUPLICATE`
 
-### SYNO.PhotoStation.Comment (491-495)
+### SYNO.PhotoStation.Comment (491-495) ###
 
 Code|Name
 ----|-------------------------------------
@@ -122,7 +122,7 @@ Code|Name
 492 |`PHOTOSTATION_COMMENT_ACCESS_DENY`
 493 |`PHOTOSTATION_COMMENT_CREATE_FAIL`
 
-### SYNO.PhotoStation.Thumb (496-505)
+### SYNO.PhotoStation.Thumb (496-505) ###
 
 Code|Name
 ----|-------------------------------------
@@ -131,7 +131,7 @@ Code|Name
 503 |`PHOTOSTATION_THUMB_NO_COVER`
 504 |`PHOTOSTATION_THUMB_FILE_NOT_EXISTS`
 
-### SYNO.PhotoStation.Download (506-515)
+### SYNO.PhotoStation.Download (506-515) ###
 
 Code|Name
 ----|-------------------------------------
@@ -139,7 +139,7 @@ Code|Name
 507 |`PHOTOSTATION_DOWNLOAD_ACCESS_DENY`
 508 |`PHOTOSTATION_DOWNLOAD_CHDIR_ERROR`
 
-### SYNO.PhotoStation.File (516-525)
+### SYNO.PhotoStation.File (516-525) ###
 
 Code|Name
 ----|-------------------------------------
@@ -151,7 +151,7 @@ Code|Name
 521 |`PHOTOSTATION_FILE_NO_FILE`
 522 |`PHOTOSTATION_FILE_UPLOAD_CANT_WRITE`
 
-### SYNO.PhotoStation.Cover (526-530)
+### SYNO.PhotoStation.Cover (526-530) ###
 
 Code|Name
 ----|-------------------------------------
@@ -161,14 +161,14 @@ Code|Name
 529 |`PHOTOSTATION_COVER_PHOTO_VIDEO_NOT_IN_ALBUM`
 530 |`PHOTOSTATION_COVER_SET_FAIL`
 
-### SYNO.PhotoStation.Rotate (531-535)
+### SYNO.PhotoStation.Rotate (531-535) ###
 
 Code|Name
 ----|-------------------------------------
 531 |`PHOTOSTATION_ROTATE_ACCESS_DENY`
 532 |`PHOTOSTATION_ROTATE_SET_FAIL`
 
-### SYNO.PhotoStation.SlideshowMusic (536-545)
+### SYNO.PhotoStation.SlideshowMusic (536-545) ###
 
 Code|Name
 ----|-------------------------------------
@@ -179,14 +179,14 @@ Code|Name
 540 |`PHOTOSTATION_SLIDESHOWMUSIC_NO_FILE`
 541 |`PHOTOSTATION_SLIDESHOWMUSIC_EXCEED_LIMIT`
 
-### SYNO.PhotoStation.DsmShare (546-550)
+### SYNO.PhotoStation.DsmShare (546-550) ###
 
 Code|Name
 ----|-------------------------------------
 546 |`PHOTOSTATION_DSMSHARE_UPLOAD_ERROR`
 547 |`PHOTOSTATION_DSMSHARE_ACCESS_DENY`
 
-### SYNO.PhotoStation.SharedAlbum (551-560)
+### SYNO.PhotoStation.SharedAlbum (551-560) ###
 
 Code|Name
 ----|-------------------------------------
@@ -198,26 +198,26 @@ Code|Name
 556 |`PHOTOSTATION_SHARED_ALBUM_GET_INFO_ERROR`
 557 |`PHOTOSTATION_SHARED_ALBUM_LIST_ERROR`
 
-### SYNO.PhotoStation.Log (561-565)
+### SYNO.PhotoStation.Log (561-565) ###
 
 Code|Name
 ----|-------------------------------------
 561 |`PHOTOSTATION_LOG_ACCESS_DENY`
 
-### SYNO.PhotoStation.PATH (566-570)
+### SYNO.PhotoStation.PATH (566-570) ###
 
 Code|Name
 ----|-------------------------------------
 566 |`PHOTOSTATION_PATH_ACCESS_DENY`
 
-### SYNO.PhotoStation.ACL (571-580)
+### SYNO.PhotoStation.ACL (571-580) ###
 
 Code|Name
 ----|-------------------------------------
 571 |`PHOTOSTATION_ACL_NOT_SUPPORT`
 572 |`PHOTOSTATION_ACL_CONVERT_FAIL`
 
-### SYNO.PhotoStation.AdvancedShare (581-590)
+### SYNO.PhotoStation.AdvancedShare (581-590) ###
 
 Code|Name
 ----|-------------------------------------

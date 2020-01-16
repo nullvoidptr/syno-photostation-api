@@ -14,8 +14,8 @@ Standard queries list contents of a particular album. The only filtering is base
 
 Parameter|Description|Required?
 ---------|-----------|---------
-limit    |Number of items to return per request|Yes
-offset   |Starting item in return set (starting at 0)|Yes
+limit    |Number of items to return per request (integer)|Yes
+offset   |Starting index of return set (integer starting at 0)|Yes
 type     |Comma separated list of item types to return (`album`, `photo` and/or `video`)|Yes
 id       |ID of album being queried (if unset, root album)|Optional
 password |Password for album (if password protected)|Optional
@@ -26,6 +26,7 @@ sort_direction|Direction of sorting (`asc` = ascending, `dsc` = descending)|Opti
 #### Advanced Queries #####
 
 With advanced queries, users may filter results based on:
+
 - multiple album names
 - keywords
 - date ranges
@@ -67,7 +68,8 @@ it does not appear they are implemented.
 
 With the exception of `date_op`, the query operators determine whether
 all values are required to match or if any single term among the query
-values can match.
+values can match. The `date_op` operator determines which type of date
+is compared.
 
 Parameter    |Allowed Values
 -------------|-----------

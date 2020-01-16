@@ -3,10 +3,9 @@
 {{- .Content -}}
 <ul class="api_list">
 {{ range .Data.Pages -}}
-  <li>
-    <span><a href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }}{{ .File.TranslationBaseName }}{{ end }}</a>
-    {{ if .Description}} - {{ .Description }}{{ end }}</span>
-  </li>
+{{- if not .Draft -}}
+  <li><span><a href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }}{{ .File.TranslationBaseName }}{{ end }}</a>  {{ if .Description }} - {{ .Description }}{{ end }}</span></li>
+{{- end -}}
 {{- end }}
 </ul>
 {{- partial "edit-meta.html" . -}}

@@ -1,8 +1,20 @@
-baseURL = "http://example.org/"
+baseURL = "http://jbowen.dev/synology/photo-api/"
 languageCode = "en-us"
-title = "Unofficial Synology PhotoStation REST API Reference"
+title = "Synology PhotoStation REST API"
 theme = "hugo-theme-techdoc"
 
 [Params]
+    description = "An Unofficial Reference"
+    version = "0.1.0"
     menu_style = "slide-menu"
     custom_background_color = "#4c99e6"
+
+[[menu.main]]
+    name = "jbowen.dev"
+    url = "https://jbowen.dev"
+    weight = 1
+
+[[menu.main]]
+    name = "Official Synology Documentation"
+    url = "https://www.synology.com/en-global/support/documentation?query=&type=All&section=All&p=1"
+    weight = 2

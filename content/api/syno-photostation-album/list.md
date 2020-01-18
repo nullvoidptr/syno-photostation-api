@@ -14,14 +14,14 @@ Standard queries list contents of a particular album. The only filtering is base
 
 Parameter|Description|Required?
 ---------|-----------|---------
-limit    |Number of items to return per request (integer)|Yes
-offset   |Starting index of return set (integer starting at 0)|Yes
-type     |Comma separated list of item types to return (`album`, `photo` and/or `video`)|Yes
-id       |ID of album being queried (if unset, root album)|Optional
-password |Password for album (if password protected)|Optional
-additional|Additional item information to return (see below)|Optional
-sort_by|Sort method (`filename`, `takendate`, `createdate`, `preference`, `mtime`)|Optional
-sort_direction|Direction of sorting (`asc` = ascending, `dsc` = descending)|Optional
+`limit`  |Number of items to return per request (integer)|Yes
+`offset` |Starting index of return set (integer starting at 0)|Yes
+`type`   |Comma separated list of item types to return (`album`, `photo` and/or `video`)|Yes
+`id`     |ID of album being queried (if unset, root album)|Optional
+`password` |Password for album (if password protected)|Optional
+`additional`|Additional item information to return (see below)|Optional
+`sort_by`|Sort method (`filename`, `takendate`, `createdate`, `preference`, `mtime`)|Optional
+`sort_direction`|Direction of sorting (`asc` = ascending, `dsc` = descending)|Optional
 
 #### Advanced Queries #####
 

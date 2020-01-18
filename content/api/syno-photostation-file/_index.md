@@ -1,7 +1,6 @@
 ---
 title: "SYNO.PhotoStation.File"
 description: "Upload photo(s) or video(s) to PhotoStation"
-draft: true
 ---
 
 Upload photo(s) or video(s) to PhotoStation

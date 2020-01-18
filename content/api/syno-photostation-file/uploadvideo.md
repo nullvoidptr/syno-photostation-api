@@ -1,7 +1,6 @@
 ---
 title: "uploadvideo"
 description: "Upload a video file to PhotoStation"
-draft: true
 ---
 Upload a video file to PhotoStation
 
@@ -25,3 +24,7 @@ are identified by one of the following form names in the request:
 - iphone
 - android
 - flv
+
+### Sample Response ###
+
+TBD

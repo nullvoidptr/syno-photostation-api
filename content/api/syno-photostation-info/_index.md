@@ -1,6 +1,6 @@
 ---
 title: "SYNO.PhotoStation.Info"
-description: ""
+description: "Query general information about PhotoStation"
 ---
 
 ### Available Methods ###

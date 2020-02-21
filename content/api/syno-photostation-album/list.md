@@ -22,6 +22,7 @@ Parameter|Description|Required?
 `additional`|Additional item information to return (see below)|Optional
 `sort_by`|Sort method (`filename`, `takendate`, `createdate`, `preference`, `mtime`)|Optional
 `sort_direction`|Direction of sorting (`asc` = ascending, `dsc` = descending)|Optional
+`force_update`|If `true`, forces update of internal cache before returning|Optional
 
 #### Advanced Queries #####
 
@@ -201,3 +202,13 @@ Value|Type|Description
 
 Any `additional` value that is not compatible with a given item's type will be
 silently ignored.
+
+### Errors ###
+
+On error, `list` can return one of the following error values:
+
+Error Value|Description
+-----------|-----------
+`WEBAPI_ERR_BAD_REQUEST`|Missing or invalid parameter(s) or if album specified by `id` does not exist.
+`PHOTOSTATION_ALBUM_NO_ACCESS_RIGHT`|User does not have access rights to album
+`PHOTOSTATION_ALBUM_PASSWORD_ERROR`|Incorrect password for album

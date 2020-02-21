@@ -7,12 +7,12 @@ Get information about one or more albums
 
 ### Request ###
 
-TODO: Verify comma separated album IDs works
-
-|Parameter|Description|Required?|
-|---------|-----------|---------|
-|id |Comma separated list of album IDs (root album if none)|Optional
-|additional|Comma separated list of additional information to return (see below)|Optional
+Parameter|Description|Required?|
+---------|-----------|---------|
+id |Comma separated list of album IDs (root album if none)|Optional
+additional|Comma separated list of additional information to return (see below)|Optional
+ignore|Comma separated list of info items to not be returned. Currently only appears to react to `thumbnail`|Optional
+password|Password for album access (if necessary)|Optional
 
 If no `id` is set, information on the root album will be returned.
 
@@ -135,3 +135,11 @@ Sample response with all `additional` flags set:
   }
 }
 ```
+
+### Errors ###
+
+On error, `getinfo` can return one of the following error values:
+
+Error Value|Description
+-----------|-----------
+`WEBAPI_ERR_BAD_REQUEST`|Missing or invalid parameter(s) (eg. non-album ID in `id`)

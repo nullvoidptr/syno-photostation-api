@@ -1,0 +1,4 @@
+---
+title: "getinfo"
+draft: true
+---

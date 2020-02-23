@@ -7,7 +7,6 @@ Moves one or more albums to a new parent album. All albums will be located to th
 
 ### Request ###
 
-<!-- Enter request parameters here. "Yes" or "Optional" under Required? -->
 Parameter|Description|Required?
 ---------|-----------|---------
 id       |Comma separated list of Album IDs|Yes
@@ -43,7 +42,7 @@ not moved:
 }
 ```
 
-### About Cancellation ###
+### Cancellation ###
 
 The `move` command supports cancellation via the `cancel` command.
 In order for `cancel` to stop the album(s) being moved, the

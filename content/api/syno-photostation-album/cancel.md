@@ -3,13 +3,14 @@ title: "cancel"
 description: "Cancel an album operation"
 ---
 
-Cancels an asynchronous operation (album move, copy or delete) being performed
+Cancels an operation (move, copy or delete) being performed
 on an album.
 
 Internally this operates by creating a per-operation temporary sentinel file
 which is checked prior to each individual operation. The `id` parameter
-of the `cancel` operation must match the `id` exactly (contents and order),
-or the cancellation operation will not find a matching operation to cancel.
+of the `cancel` operation must match the `id` of the original operation
+exactly (contents and order), or the cancellation operation will not find a
+matching operation to cancel.
 
 ### Request ###
 

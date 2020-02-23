@@ -19,7 +19,7 @@ id       |Comma separated list of album IDs|Yes
 }
 ```
 
-### About Cancellation ###
+### Cancellation ###
 
 The `delete` command supports cancellation via the `cancel` command.
 In order for `cancel` to stop deletion of the album(s) being processed, the

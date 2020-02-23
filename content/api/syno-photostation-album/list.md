@@ -167,7 +167,7 @@ Standard query of root album containing four child albums:
 }
 ```
 
-### Pagination ###
+#### Pagination ####
 
 The pagination of returned results is determined by the values of `limit` and `offset`.
 `limit` determines how many items to return in each query while `offset` determines
@@ -181,7 +181,7 @@ In order to fetch all matches from a list query, the following workflow should b
 - send request with `offset` equal to the value of `offset` returned in response
 - repeat above until `total == offset`
 
-### Additional Information ###
+#### Additional Information ####
 
 The `additional` parameter returns additional optional information for the returned items
 based on the list of values provided. The available additional values vary based on the

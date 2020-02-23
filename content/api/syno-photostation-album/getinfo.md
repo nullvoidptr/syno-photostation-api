@@ -52,7 +52,7 @@ Other parameters ?
 }
 ```
 
-##### Additional Information #####
+#### Additional Information ####
 
 The `getinfo` method `additional` parameter can be used to specify additional
 information to return for each album. `additional` is an comma

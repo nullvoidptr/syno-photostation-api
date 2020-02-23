@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " }}"
 description: "<!-- Enter description -->"
+draft: true
 ---
 
 <!-- Enter summary here -->

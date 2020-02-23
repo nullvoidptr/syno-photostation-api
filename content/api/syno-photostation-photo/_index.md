@@ -3,6 +3,18 @@ title: "SYNO.PhotoStation.Photo"
 description: "Manage photos within PhotoStation albums"
 ---
 
+### Common Request Fields ###
+
+Parameter |Description|Required?
+----------|-----------|---------
+public_share_id||Optional
+filter_public_share||Optional
+
+These optional settings determine the public share session cache used during processing.
+These parameters may be set for all `Photo` API requests.
+
+TODO - what does this mean?
+
 ### Error Codes ###
 
 The following error codes are specific to `SYNO.PhotoStation.Photo`:

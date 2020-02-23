@@ -7,6 +7,8 @@ Fetch the external IP address of the PhotoStation device. Depending on the
 configuration this may be a static IP address, a dynamically assigned DNS
 name or a Synology Quickconnect URL.
 
+NOTE: This requires `version=2` to process.
+
 ### Request ###
 
 No additional parameters required.

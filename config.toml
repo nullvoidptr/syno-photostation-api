@@ -5,7 +5,7 @@ theme = "hugo-theme-techdoc"
 
 [Params]
     description = "An Unofficial Reference"
-    version = "0.1.0"
+    version = "0.2.0"
     menu_style = "slide-menu"
     custom_background_color = "#4c99e6"
 

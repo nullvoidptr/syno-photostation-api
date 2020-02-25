@@ -18,7 +18,7 @@ requests are not.
 ### Determining API Path ###
 
 The base URL for PhotoStation is at `http://<synology_host>/photo/webapi`. All
-APIs reference specific `cgi` files contained within this server path. In order
+APIs reference specific `cgi` or `php` files contained within this server path. In order
 to find the correct path for a given API, reference the response to a
 `query` request to `SYNO.API.Info` at `/photo/webapi/query.cgi`.
 
@@ -52,7 +52,7 @@ PhotoStation service. Note that the `list` method requires the additional parame
 ### Request ###
 
 ```text
-curl -b PHPSESSID=md4ach79mbgrdfa4g17mhgala2 'http://synology.local/photo/webapi/album.cgi?api=SYNO.PhotoStation.Album&method=list&version=1&limit=50&type=album&offset=0
+curl -b PHPSESSID=md4ach79mbgrdfa4g17mhgala2 'http://synology.local/photo/webapi/album.php?api=SYNO.PhotoStation.Album&method=list&version=1&limit=50&type=album&offset=0
 ```
 
 **NOTE:** We use the `-b KEY=VALUE` option in `curl` to set the cookie

@@ -1,7 +1,6 @@
 ---
 title: "Users and Authentication"
-weight: 10
-draft: true
+weight: 50
 ---
 
 ## PhotoStation Operating Modes ##
@@ -30,3 +29,4 @@ of usernames and passwords independent of that standard DSM users.
 
 ## User Permissions ##
 
+TBD

@@ -1,6 +1,6 @@
 ---
 title: "Albums"
-draft: true
+weight: 20
 ---
 
 ## Albums Overview ##
